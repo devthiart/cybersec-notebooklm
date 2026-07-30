@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="bexJ_oGl_J1vdV0Jmzhk">
+    <mxGraphModel dx="2115" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="COoIqKB-spXAwqodPLi7-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
+          <mxGeometry height="60" width="30" x="-130" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+          <mxGeometry height="240" width="200" x="790" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-3" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="DB MySQL" vertex="1">
+          <mxGeometry height="30" width="80" x="850" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-4" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.996;exitY=0.311;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299.99999999999983" y="180.695" as="sourcePoint" />
+            <mxPoint x="440.84" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-5" edge="1" parent="1" source="COoIqKB-spXAwqodPLi7-7" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.003;exitY=0.388;exitDx=0;exitDy=0;entryX=0.017;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="COoIqKB-spXAwqodPLi7-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="177" as="sourcePoint" />
+            <mxPoint x="780" y="177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="365" width="210" x="90" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="265" width="220" x="440" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-8" edge="1" parent="1" source="COoIqKB-spXAwqodPLi7-1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.015;entryY=0.282;entryDx=0;entryDy=0;entryPerimeter=0;" target="COoIqKB-spXAwqodPLi7-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="179.5" as="sourcePoint" />
+            <mxPoint x="30" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Frontend Angular" vertex="1">
+          <mxGeometry height="30" width="60" x="165" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Backend Flask" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-11" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,0,0&quot;&gt;Use JWT for the session cookie&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,1,0&quot;&gt;Store tokens in HttpOnly and Secure Cookies&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,2,0&quot;&gt;Implement Multi-Factor Authentication&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,3,0&quot;&gt;Avoid innerHTML, direct DOM manipulation, or methods that bypass security (bypassSecurityTrust...)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,4,0&quot;&gt;Use CanActivate to prevent users from accessing financial data without logging in (while also validating on the backend)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,5,0&quot;&gt;Use the AoT compiler (Default starting from v17)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,6,0&quot;&gt;Never store API keys or other secrets in the application. Use .env files&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="335" width="200" x="90" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTPS Connection" vertex="1">
+          <mxGeometry height="30" width="110" x="-70" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-13" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,0,0&quot;&gt;Trusted Authority&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,1,0&quot;&gt;Use rate limiting on login endpoints&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,2,0&quot;&gt;Use SQLAlchemy ORM&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,3,0&quot;&gt;Validate all inputs and treat them as &quot;dirty data&quot;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,4,0&quot;&gt;Ensure the user has permission to access that specific financial record (preventing Broken Access Control - OWASP A01)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,5,0&quot; style=&quot;line-height: 100%;&quot;&gt;Configure CORS correctly&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="250" width="225" x="427.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-14" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,0,0&quot;&gt;Store password hash with salt&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,1,0&quot;&gt;Never store plain text passwords&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;0,2,0&quot;&gt;The user that Flask uses must have the least privilege possible (SELECT and INSERT). Never root.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="170" width="210" x="770" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Private Connection (VPC)" vertex="1">
+          <mxGeometry height="30" width="80" x="690" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTPS Connection" vertex="1">
+          <mxGeometry height="30" width="100" x="320" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Others Recommendations" vertex="1">
+          <mxGeometry height="220" width="280" x="50" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-10" parent="QtpRGvANPBgCoecvwnvB-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;Log all denied access attempts with sufficient context for analysis&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-11" parent="QtpRGvANPBgCoecvwnvB-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;Keep all package/dependency versions updated and monitor for new vulnerabilities&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="280" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-12" parent="QtpRGvANPBgCoecvwnvB-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;Perform pentests regularly during development and periodically after launch&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="70" width="280" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

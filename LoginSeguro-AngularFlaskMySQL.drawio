@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="bexJ_oGl_J1vdV0Jmzhk">
+    <mxGraphModel dx="3116" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="COoIqKB-spXAwqodPLi7-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
+          <mxGeometry height="60" width="30" x="-130" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+          <mxGeometry height="240" width="200" x="790" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-3" parent="1" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="DB MySQL" vertex="1">
+          <mxGeometry height="30" width="80" x="850" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-4" edge="1" parent="1" source="COoIqKB-spXAwqodPLi7-6" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.002;entryY=0.445;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.327;exitDx=0;exitDy=0;exitPerimeter=0;" target="COoIqKB-spXAwqodPLi7-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="302.52" y="193.68" as="sourcePoint" />
+            <mxPoint x="370" y="237.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-5" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="177" as="sourcePoint" />
+            <mxPoint x="780" y="177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="345" width="210" x="90" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="255" width="220" x="440" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-8" edge="1" parent="1" source="COoIqKB-spXAwqodPLi7-1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.011;entryY=0.309;entryDx=0;entryDy=0;entryPerimeter=0;" target="COoIqKB-spXAwqodPLi7-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="179.5" as="sourcePoint" />
+            <mxPoint x="30" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Frontend Angular" vertex="1">
+          <mxGeometry height="30" width="60" x="165" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Backend Flask" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-11" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;Utilizar JWT para o cookie de sessão&lt;/li&gt;&lt;li&gt;Armazenar tokens em Cookies HttpOnly e Secure&lt;/li&gt;&lt;li&gt;Implementar Autenticação Multifator&lt;/li&gt;&lt;li&gt;Evitar innerHTML, manipular diretamente o DOM ou métodos que ignoram a segurança (bypassSecurityTrust...)&lt;/li&gt;&lt;li&gt;Usar canActivate para evitar que usuário acesse dados financeiros sem logar (mas validar também no backend)&lt;/li&gt;&lt;li&gt;Utilizar compilador AoT (Padrão a partir da v17)&lt;/li&gt;&lt;li&gt;Nunca armazenar chaves de API ou outros segredos na aplicação. Utilizar arquivos .ENV&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="335" width="200" x="80" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Conexão HTTPS" vertex="1">
+          <mxGeometry height="30" width="100" x="-60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-13" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Autoridade de Confiança&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Usar rate limiting nos endpoints de login.&lt;/li&gt;&lt;li&gt;Usar ORM SQLAlchemy&lt;/li&gt;&lt;li&gt;Validar todas as entradas e tratar como &quot;dado sujo&quot;.&lt;/li&gt;&lt;li&gt;Certificar que o usuário tem permissão para acessar aquele dado financeiro específico (evitando Broken Access Control - A01 do OWASP)&lt;/li&gt;&lt;li&gt;Configurar CORS corretamente.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="200" width="230" x="425" y="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-14" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;Armazenar hash de senha com salt&lt;/li&gt;&lt;li&gt;Nunca Armazenar a senha pura&lt;/li&gt;&lt;li&gt;Usuário que o Flask utiliza deve ter o menor privilégio possível (Select e Insert). Nunca root.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="170" width="210" x="770" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="COoIqKB-spXAwqodPLi7-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Rede privada (VPC)" vertex="1">
+          <mxGeometry height="30" width="80" x="690" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Conexão HTTPS" vertex="1">
+          <mxGeometry height="30" width="100" x="320" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Outras recomendações" vertex="1">
+          <mxGeometry height="220" width="280" x="60" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-10" parent="QtpRGvANPBgCoecvwnvB-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;Registrar em logs todas as tentativas de acesso negado com contexto suficiente para análise.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-11" parent="QtpRGvANPBgCoecvwnvB-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;Manter todas as versões atualizadas e monitorar se surgem novas vulnerabilidades.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="280" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QtpRGvANPBgCoecvwnvB-12" parent="QtpRGvANPBgCoecvwnvB-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;Realizar pentests durante o desenvolvimento e após o lançamento periódicamente.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="70" width="280" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
